@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="temp_sign">%.2f °C</string>
+
+    <string name="temp_details">Temperature: %.2f °C</string>
+    <string name="max_temp_details">Max Temperature: %.2f °C</string>
+    <string name="min_temp_details">Min Temperature: %.2f °C</string>
+    <string name="humidity_details">Humidity: %.2f%%</string>
+    <string name="pressure_details">Pressure: %.2f hPa</string>
+</resources>

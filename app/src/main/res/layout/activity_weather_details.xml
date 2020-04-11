@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WeatherDetailsActivity"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/tv_city_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Cairo"
+        style="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:id="@+id/tv_city_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Temperature: 12.3 F" />
+
+    <TextView
+        android:id="@+id/tv_max_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Max Temperature: 22 F" />
+
+    <TextView
+        android:id="@+id/tv_min_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Min Temperature: 55 F" />
+
+    <TextView
+        android:id="@+id/tv_humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Humidity: 55" />
+
+    <TextView
+        android:id="@+id/tv_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Pressure: 33 Bar" />
+
+</LinearLayout>
